@@ -9,4 +9,6 @@ Epochs : Epoch is number of times neural network is presented with complete set 
 
 3x3 Convolution : 3X3 convolution is the most common kernel used for feature extraction. It uses 3X3 matrix for convolution. Helps to reduce the size of image by extracting only essential features. A 3x3 used on a 5x5 image will give us 3x3 image. 3X3 is most commonly used because of axis symmetry it can offer due to odd size. 
 
+Feature maps : Feature map is the output of a convolution operation performed by a kernel. If we convolve a 3x3 kernel over 400x400 pixel image we will get 398x398 as output. This is the feature map. It is the place where extracted features at each layer after convolution operation are stored. This feature map will be the input of next kernel for further extractions.
+
 Receptive Field : Receptive field is the size/area through which Kernel can see an image at a time. There are 2 categories - local and Global. Local receptive field -> Size of kernel on that particular layer. Global receptive field -> Size of final kernel. In effect we are seeing the entire image through the final sized kernel.
